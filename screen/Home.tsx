@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StatusBar } from 'expo-status-bar';
 import React, { useRef, useState } from 'react';
 import { Animated, Image, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -221,3 +222,21 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
   },
 });
+=======
+import {
+    View,
+    Text,
+    Button,
+  } from 'react-native';
+  import React from "react";
+
+const HomeScreen = ({ navigation,route }:any) => {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+  }
+
+export default HomeScreen;;
+>>>>>>> 1aea028c2937573c0a9db1060fddbc1065eb8916
